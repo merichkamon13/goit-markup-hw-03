@@ -5,10 +5,33 @@
     --second-white-color: #F4F4FD;
     --contacts-color: #434455;
 }
+.container{
+    max-width: 1158px;
+    padding-left: 15px; 
+    padding-right: 15px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--primary-white-color);
     color: #434455;
+}
+.link{
+    text-decoration: none;
+    color: var(--primary-accent-color);
 }
 .logo{
     font-family: 'Raleway', sans-serif;
@@ -17,16 +40,17 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-.link{
-    text-decoration: none;
-    color: var(--primary-accent-color);
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logo-dark{
     color: var(--primary-black-color);
+    margin-right: 76px;
 }
 .list{
     list-style: none;
+    padding: 0px;
+    margin: 0px 0px;
 }
 .portfolio-link{
     font-family: 'Roboto', sans-serif;
@@ -42,9 +66,16 @@ body{
 }
 .portfolio-list{
     text-decoration: none; 
+    display: flex;
+    gap: 40px;
+    margin-right: 332px;
 }
 .adress{
     font-style: normal;
+}
+.adress-list{
+    display: flex;
+    gap: 40px; 
 }
 .adress-list-link{
     font-family: 'Roboto', sans-serif;
@@ -59,7 +90,20 @@ body{
     color:#404bbf;
 }
 .hero-section{
+    height: 600px; 
     background-color: var(--primary-black-color);
+    padding: 188px 0px;
+}
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container{
+    display: flex;
+    padding: 24px 0px;
+}
+.header-nav{
+    display: flex;
+    align-items: center; 
 }
 .hero-title{
     font-style: 'Roboto', sans-serif;
@@ -69,6 +113,9 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
+    margin-bottom: 48px;
+    margin: 0px auto;
 }
 .hero-btn{
     background-color: #4D5AE5;
@@ -78,13 +125,17 @@ body{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    display: block; 
+    min-width: 169px;
+    height: 56px;
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus{
     background-color: #404BBF;
-    cursor: pointer;
 }
-
 .button-lists-items{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -100,6 +151,27 @@ body{
     background-color: #404BBF;
     color: #FFFFFF;
 }
+.benefits{
+    padding: 0px;
+}
+.benefits-list{
+    display: flex;
+}
+.benefits-list-item{
+    flex-basis: calc((100% - 24 * 3) /4);
+}
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .secont-title{
     font-style: 'Roboto', sans-serif;
     font-weight: 700;
@@ -109,6 +181,9 @@ body{
     text-align: center;
     text-transform: capitalize;
     color: var(--primary-black-color);
+    min-width: 323px;
+    margin: 0px auto;
+    margin-bottom: 72px;
 }
 .third-title{
     font-family: 'Roboto', sans-serif;
@@ -117,6 +192,17 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-black-color);
+    margin: 0px;
+    margin-bottom: 8px; 
+    
+}
+
+.imagine-list{
+    display: flex;
+    gap: 24px;
+}
+.imagine-list-item{
+width: calc((100% - 48px) / 3);;
 }
 .text{
     font-family: 'Roboto', sans-serif;
@@ -125,15 +211,31 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--contacts-color);
+    margin: 0px;
+    
 }
 .section-team{
     background-color: #F4F4FD;
+}
+.team-list{
+    display: flex;
+    gap: 24px;
+}
+.team-list-item{
+    width: calc((100% - 72px) / 4); 
+    border-radius: 0px 0px 4px 4px;
+}
+.team-container{
+    padding: 32px 0;
+    text-align: center;
+
 }
 .images-list-item{
     background-color: #FFFFFF;
 }
 .footer{
     background-color: var(--primary-black-color);
+    padding: 100px 0;
 }
 .logo-light{
     color: var(--second-white-color);
@@ -145,4 +247,5 @@ body{
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
