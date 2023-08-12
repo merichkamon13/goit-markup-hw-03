@@ -42,10 +42,11 @@ body{
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
-    margin-right: 76px;
+    
 }
 .logo-dark{
     color: var(--primary-black-color);
+    margin-right: 76px;
 }
 .list{
     list-style: none;
@@ -70,15 +71,14 @@ body{
     gap: 40px;
     margin-right: 332px;
 }
-.portfolio-lis-item{
-    padding: 24px 0px;
-}
+
 .adress{
     font-style: normal;
 }
 .adress-list{
     display: flex;
     gap: 40px; 
+    padding: 24px 0px;
 }
 .adress-list-link{
     font-family: 'Roboto', sans-serif;
@@ -102,10 +102,11 @@ body{
 }
 .header-container{
     display: flex;
+    
 }
 .header-nav{
     display: flex;
-    align-items: center; 
+    padding: 24px 0px;
 }
 .hero-title{
     font-style: 'Roboto', sans-serif;
@@ -159,7 +160,6 @@ body{
 .benefits-list{
     display: flex;
     gap: 24px; 
-    padding: 24px 0px;
 }
 .benefits-list-item{
     flex-basis: calc((100% - 72px) / 4);
