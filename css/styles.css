@@ -159,6 +159,7 @@ body{
 .benefits-list{
     display: flex;
     gap: 24px; 
+    padding: 24px 0px;
 }
 .benefits-list-item{
     flex-basis: calc((100% - 72px) / 4);
