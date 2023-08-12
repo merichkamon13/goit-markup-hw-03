@@ -74,6 +74,7 @@ body{
     display: flex;
     gap: 40px; 
     margin-right: 332px;
+   
 }
 
 .adress{
@@ -112,6 +113,7 @@ body{
 }
 .header-nav{
     display: flex; 
+    align-items: center;
     
 }
 .hero-title{
