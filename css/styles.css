@@ -44,10 +44,7 @@ body{
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
-    margin-right: 76px;
-    
-    
-    
+    margin-right: 76px;    
 }
 .logo-dark{
     color: var(--primary-black-color);
@@ -74,7 +71,6 @@ body{
     display: flex;
     gap: 40px; 
     margin-right: 332px;
-   
 }
 
 .adress{
@@ -113,8 +109,10 @@ body{
 }
 .header-nav{
     display: flex; 
-    align-items: center;
-    
+    align-items: center;  
+}
+.header-list-item{
+
 }
 .hero-title{
     font-style: 'Roboto', sans-serif;
