@@ -43,11 +43,12 @@ body{
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
+    margin-right: 76px;
+    
     
 }
 .logo-dark{
     color: var(--primary-black-color);
-    margin-right: 76px;
 }
 .list{
     list-style: none;
@@ -61,7 +62,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-black-color);
-    padding: 24px 0px;
+  
 }
 .portfolio-link:hover,
 .portfolio-link:focus{
@@ -89,7 +90,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--contacts-color); 
-    padding: 24px 0px;
+    
    
 }
 .adress-list-link:hover,
@@ -111,6 +112,8 @@ body{
 .header-nav{
     display: flex;
     padding: 24px 0px;
+    align-items: center; 
+    justify-content: center;
 }
 .hero-title{
     font-style: 'Roboto', sans-serif;
