@@ -9,8 +9,8 @@
     max-width: 1158px;
     padding-left: 15px; 
     padding-right: 15px;
-    margin: 0 auto;
-    padding: 0 15px;
+    margin: 0px auto;
+    padding: 0px 15px;
 
     outline: 2px solid red;
     outline-offset: -2px;
@@ -42,10 +42,10 @@ body{
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
+    margin-right: 76px;
 }
 .logo-dark{
     color: var(--primary-black-color);
-    margin-right: 76px;
 }
 .list{
     list-style: none;
@@ -69,6 +69,9 @@ body{
     display: flex;
     gap: 40px;
     margin-right: 332px;
+}
+.portfolio-lis-item{
+    padding: 24px 0px;
 }
 .adress{
     font-style: normal;
@@ -99,7 +102,6 @@ body{
 }
 .header-container{
     display: flex;
-    padding: 24px 0px;
 }
 .header-nav{
     display: flex;
@@ -156,9 +158,10 @@ body{
 }
 .benefits-list{
     display: flex;
+    gap: 24px; 
 }
 .benefits-list-item{
-    flex-basis: calc((100% - 24 * 3) /4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .visually-hidden{
     position: absolute;
@@ -193,8 +196,7 @@ body{
     letter-spacing: 0.02em;
     color: var(--primary-black-color);
     margin: 0px;
-    margin-bottom: 8px; 
-    
+    margin-bottom: 8px;  
 }
 
 .imagine-list{
@@ -202,7 +204,11 @@ body{
     gap: 24px;
 }
 .imagine-list-item{
-width: calc((100% - 48px) / 3);;
+width: calc((100% - 48px) / 3);
+}
+.team-list-item{
+width: calc((100% - 72px) / 4); 
+border-radius: 0px 0px 4px 4px;
 }
 .text{
     font-family: 'Roboto', sans-serif;
@@ -221,14 +227,14 @@ width: calc((100% - 48px) / 3);;
     display: flex;
     gap: 24px;
 }
-.team-list-item{
-    width: calc((100% - 72px) / 4); 
-    border-radius: 0px 0px 4px 4px;
-}
+
 .team-container{
     padding: 32px 0;
-    text-align: center;
 
+}
+.team-text{
+    padding: 32px 0px;
+    text-align: center;
 }
 .images-list-item{
     background-color: #FFFFFF;
