@@ -33,6 +33,7 @@ body{
 .link{
     text-decoration: none;
     color: var(--primary-accent-color);
+
 }
 .logo{
     font-family: 'Raleway', sans-serif;
@@ -44,6 +45,7 @@ body{
     display: inline-block;
     margin-bottom: 16px;
     margin-right: 76px;
+    align-items: center;
     
     
 }
@@ -68,10 +70,9 @@ body{
 .portfolio-link:focus{
     color: #404bbf;
 }
-.portfolio-list{
-    text-decoration: none; 
+.portfolio-list{ 
     display: flex;
-    gap: 40px;
+    gap: 40px; 
     margin-right: 332px;
 }
 
@@ -81,7 +82,6 @@ body{
 .adress-list{
     display: flex;
     gap: 40px; 
-    padding: 24px 0px;
 }
 .adress-list-link{
     font-family: 'Roboto', sans-serif;
@@ -107,13 +107,12 @@ body{
 }
 .header-container{
     display: flex;
+    padding: 24px 0px;
     
 }
 .header-nav{
-    display: flex;
-    padding: 24px 0px;
-    align-items: center; 
-    justify-content: center;
+    display: flex; 
+    
 }
 .hero-title{
     font-style: 'Roboto', sans-serif;
