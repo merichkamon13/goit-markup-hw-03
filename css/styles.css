@@ -106,13 +106,14 @@ body{
 }
 .header-container{
     display: flex;
-    padding-left: 0px;
     align-items: center;
 }
 
 .header-nav{
     display: flex; 
     margin-right: auto; 
+    align-items: center;
+  
     
 }
 .hero-title{
