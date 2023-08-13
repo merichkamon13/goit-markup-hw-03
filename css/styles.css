@@ -98,6 +98,7 @@ body{
 }
 .header-container{
     display: flex;
+    padding-left: 0px;
 }
 
 .header-nav{
@@ -261,10 +262,13 @@ border-radius: 0px 0px 4px 4px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    padding: 0px auto;
+    
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .card-set-item{
     width: calc((100% - 48px) / 3); 
+
     
 }
 .card-container{
