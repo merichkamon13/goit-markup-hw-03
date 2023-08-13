@@ -165,7 +165,7 @@ body{
     gap: 24px; 
 }
 .benefits-list-item{
-    flex-basis: calc((100% - 72px) / 4);
+    will-change: calc((100% - 72px) / 4);
 }
 .visually-hidden{
     position: absolute;
@@ -270,15 +270,19 @@ border-radius: 0px 0px 4px 4px;
     margin-bottom: 8px;
     padding: 0px 16px;
     flex-shrink: 0;
-    
 }
 
 .footer{
     background-color: var(--primary-black-color);
     padding: 100px 0;
 }
+
 .logo-light{
     color: var(--second-white-color);
+}
+.footer-logo{
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-text{
     color: var(--second-white-color);
