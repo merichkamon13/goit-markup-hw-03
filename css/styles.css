@@ -225,11 +225,11 @@ body{
 .imagine-list-item{
     width: calc((100% - 48px) / 3);
 }
+
 .team-list{
     display: flex;
     gap: 24px;
     padding: 0px;
-    list-style: none;
 }
 .team-list-item{
     width: calc((100% - 72px) / 4);
