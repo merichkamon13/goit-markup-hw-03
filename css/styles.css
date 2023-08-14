@@ -94,7 +94,7 @@ body{
     height: 600px; 
     background-color: var(--primary-black-color);
     margin: 0px auto;
-    padding-top: 188px;
+    padding: 188px 0px;
    
 }
 .header{
@@ -227,7 +227,6 @@ body{
 }
 .team-list{
     display: flex;
-    margin: 0px;
     padding: 0px;
     list-style: none;
 }
@@ -300,7 +299,7 @@ body{
     color: var(--second-white-color);
 }
 .footer-logo{
-    display: inline-flex;
+    display: inline-block;
     margin: 0px;
     margin-bottom: 16px;
     padding: 0px;
