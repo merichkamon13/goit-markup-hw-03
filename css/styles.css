@@ -215,10 +215,12 @@ body{
 .imagine-list{
     display: flex;
     gap: 24px;
-   padding: 0px;
+    padding-left: 0px;
+   
 }
 .imagine-section{
     padding-bottom: 120px;
+    
 }
 .imagine-list-item{
     width: calc((100% - 48px) / 3);
